@@ -9,6 +9,9 @@ int main(){
 	scanf("%s", &resposta2);
 	printf("Você gosta de vacas?\n");
 	scanf("%s", &resposta3);
-	printf("\n");
+	printf("Qual o seu tipo sanguineo?\n");
+	scanf("%s", &resposta4);
+	printf("Qual seu tipo de musica favorito?\n");
+	scanf("%s", &resposta5);
 	return 0;
 }
