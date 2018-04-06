@@ -23,9 +23,13 @@ int main(){
 	printf("\nQual o melhor filme do Adam Sandler? ");
 	scanf("%s", &res5[141]);
 	system("cls");	
-	printf("As respostas corretas são:");
-	printf("\nPergunta 1: Stanley Kubrick;\nPergunta 2: ;\nPergunta 3: Chewbacca;\nPergunta 4: 12 anos; \nPergunta 5: Punch Drunk Love;");
-	printf("\nPergunta 1: %s;\nPergunta 2: %s;\nPergunta 3: %s;\nPergunta 4: %s; \nPergunta 5: %s;", &res1, &res2, &res3, &res4, &res5);
+	printf("CONFIRA SUAS RESPOSTAS:\n");
+	printf("_________________________________________________________\n");
+	printf("\nResposta 1: Stanley Kubrick\nSua resposta:%s\n",&res1[40]);
+	printf("\nResposta 2: 1\nSua resposta:%s\n",&res2[40]);
+	printf("\nResposta 3: Chewbacca\nSua resposta:%s\n",&res3[40]);
+	printf("\nResposta 4: 12 anos\nSua resposta:%s\n",&res4[40]);
+	printf("\nResposta 5: Punch Drunk Love\nSua resposta:%s\n",&res5[40]);
 	
 	return 0;
 }
