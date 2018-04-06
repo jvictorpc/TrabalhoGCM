@@ -3,7 +3,7 @@
 #include <locale.h>
 
 int main(){
-	char res1[141], res2[141], res3[141], res4[141], res5[141];
+	char res1[40], res2[40], res3[40], res4[40], res5[40];
 	setlocale(LC_ALL,"portuguese");
 	printf("QUESTIONÁRIO CINÉFILO\n");
 	printf("__________________________________________________\n");
